@@ -1,0 +1,19 @@
+Se realizó una petición POST a la ruta/registro, utilizando Postman.
+Se enviaron los siguientes datos en formato JSON:
+
+{
+    "nombre": "Maria",
+    "mensaje": "Hola comunidad"
+}
+
+El servidor recibió correctamente la información mediante req.body y 
+respondió con un objeto JSON que contiene el estado de la operación y los datos enviados:
+
+{
+    "estado": "Datos recibidos",
+    "nombre": "Maria",
+    "mensaje": "Hola comunidad"
+}
+
+por lo tanto esto confirma que la ruta POST funciona correctamente y que Express
+procesa adecuadamente los datos JSON enviados por el cliente.
